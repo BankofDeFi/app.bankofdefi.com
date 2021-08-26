@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "app.bankofdefi.com",
+    siteUrl: "https://app.bankofdefi.com",
+    title: "Bank of DeFi | Worlds Most Secure DeFi App",
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -23,6 +23,7 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-root-import",
     {
       resolve: "gatsby-source-filesystem",
       options: {
